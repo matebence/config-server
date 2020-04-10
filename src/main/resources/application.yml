@@ -61,3 +61,6 @@ spring:
                         -----END RSA PRIVATE KEY-----
 server:
   port: 8888
+  error:
+    whitelabel:
+      enabled: false
