@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.sql.Timestamp;
 
 @RestController
+@RequestMapping(value = "/", produces = "application/json")
 public class ConfigController implements ErrorController {
 
     @RequestMapping("/error")

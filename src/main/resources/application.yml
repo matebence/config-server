@@ -59,6 +59,10 @@ spring:
                         Cdh9+5velILkVX3KYtgaVGQhKcHMNFdNQL8CzemkMR3ajxfHDnql2C7QRmdyby+r
                         Zjn8D94Lrl41FNYowT9Qp2EBfYQTIDepdkznKlhp37bR9LOe63YtZJb/Mgg=
                         -----END RSA PRIVATE KEY-----
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761
 server:
   port: 8888
   error:
