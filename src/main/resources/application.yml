@@ -62,7 +62,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://naming-server:8761/eureka
+      defaultZone: http://192.168.99.100:8761/eureka
 server:
   port: 8888
   error:
