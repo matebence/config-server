@@ -32,3 +32,5 @@ build/
 
 ### Profile ###
 /src/main/resources/application.yml
+/wait-for-it.sh
+/DockerFile
