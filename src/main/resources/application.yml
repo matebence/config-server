@@ -59,6 +59,7 @@ spring:
                         Cdh9+5velILkVX3KYtgaVGQhKcHMNFdNQL8CzemkMR3ajxfHDnql2C7QRmdyby+r
                         Zjn8D94Lrl41FNYowT9Qp2EBfYQTIDepdkznKlhp37bR9LOe63YtZJb/Mgg=
                         -----END RSA PRIVATE KEY-----
+      fail-fast: true
 eureka:
   client:
     service-url:
