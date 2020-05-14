@@ -1,6 +1,10 @@
 spring:
   application:
     name: config-server
+  security:
+    user:
+      name: app-blesk-config-server
+      password: b8199f18ee07292f39f5d9213cf493e8
   cloud:
     config:
       server:
@@ -63,7 +67,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.99.100:8761/eureka
+      defaultZone: http://app-blesk-naming-server:b1477e9ba7723b8f47e9727a39a51edf@192.168.99.100:8761/eureka
 server:
   port: 8888
   error:
