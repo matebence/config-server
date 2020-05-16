@@ -5,8 +5,6 @@ spring:
     user:
       name: app-blesk-config-server
       password: b8199f18ee07292f39f5d9213cf493e8
-    basic:
-      enabled: true
   cloud:
     config:
       server:
